@@ -6,29 +6,10 @@
 4. `$ php artisan migrate`
 
 ## SET ADMIN USER
-`$ php artisan tinker`
 
-`> $rol = new App\Roles();`
-
-`> $rol->nombre = 'admin'`
-
-`> $rol->save();`
-
-`> $user = new App\User();`
-
-`> $user->name = 'admin';`
-
-`> $user->email = 'example@example.com';`
-
-`> $user->password = 'bcrypt('admin');`
-
-`> $user->alias = 'admin';`
-
-`> $user->rol_id = 1;`
-
-`> $user->save();`
-
-`> exit;`
+`$ $usuario= admin`
+`$ $password= admin`
+`$ $ingreso en base de datos= $2a$10$m3nEMvygNO0vX.JRvYtLnuzevpaQ61KJBLcc8rG0FsqTRGsklt8Nm `
 
 `$ php artisan key:generate`
 
