@@ -19,7 +19,7 @@ body {
 }
 
 .login-wrapper {
-    background: #1D1D1D;
+    background: #1d1d1d;
 }
 
 section header {
@@ -65,7 +65,7 @@ a:hover {
     position: relative;
     top: -125px;
     width: 50px;
-    background: #1d1d1d;
+    background: #dc2214;
 }
 
 
