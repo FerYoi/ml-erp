@@ -2,16 +2,27 @@
 
 1. `$ composer install`
 2. `$ npm install`
-3. Renombrar fichero .env.example a .env y crear bbdd
+3. Renombrar fichero .env.example a .env y crear base de datos
 4. `$ php artisan migrate`
 
-## SET ADMIN USER
-
-`$ $usuario= admin`
-`$ $password= admin`
-`$ $ingreso en base de datos= $2a$10$m3nEMvygNO0vX.JRvYtLnuzevpaQ61KJBLcc8rG0FsqTRGsklt8Nm `
-
+## crear key para aplicación
 `$ php artisan key:generate`
+
+## Insertar Roles en la tabla de roles
+`INSERT INTO `roles` (`id`, `nombre`) VALUES ('1', 'Administrador'), ('2', 'Empleado');`
+## Insertar
+`INSERT INTO `roles` (`id`, `nombre`) VALUES ('1', 'Administrador'), ('2', 'Empleado');`
+`INSERT INTO `roles` (`id`, `nombre`) VALUES ('1', 'Administrador'), ('2', 'Empleado');`
+
+
+## SET ADMIN USER
+`INSERT INTO `users` (`id`, `name`, `apellidos`, `email`, `password`, `alias`, `rol_id`, `direccion`, `cp`, `ciudad`, `provincia`, `pais`, `movil`, `telefono`, `avatar`, `nif`, `iban`, `fecha_nacimiento`, `nivel_id`, `puesto_id`, `otros`, `remember_token`, `created_at`, `updated_at`, `last_login`, `sueldo`, `precio_hora`, `active`) VALUES (NULL, 'admin', 'admin', 'admin@mail.com', '$2a$10$m3nEMvygNO0vX.JRvYtLnuzevpaQ61KJBLcc8rG0FsqTRGsklt8Nm', 'admin', '1', 'UTN', '57000', 'Nezahualcoyotl', 'Neza', 'Mexico', '1234567890', '0987654321', '', '0125849', '1345687', '2000-03-12 00:00:00', '1', '1', '', NULL, '0000-00-00 00:00:00.000000', '0000-00-00 00:00:00.000000', NULL, NULL, NULL, '1');`
+`$ $password= admin`
+`$ $ingreso de pass base de datos= $2a$10$m3nEMvygNO0vX.JRvYtLnuzevpaQ61KJBLcc8rG0FsqTRGsklt8Nm `
+# SET USER EMPLEADO
+`INSERT INTO `users` (`id`, `name`, `apellidos`, `email`, `password`, `alias`, `rol_id`, `direccion`, `cp`, `ciudad`, `provincia`, `pais`, `movil`, `telefono`, `avatar`, `nif`, `iban`, `fecha_nacimiento`, `nivel_id`, `puesto_id`, `otros`, `remember_token`, `created_at`, `updated_at`, `last_login`, `sueldo`, `precio_hora`, `active`) VALUES (NULL, 'empleado', 'empleado', 'empleado@mail.com', '$2a$12$F3EjJMpuCbnpFGcu0WsR0uCKjdcs/M3ZRBFKY7iHDytl.ZTgvMwEm', 'empleado', '2', 'UTN', '57000', 'Nezahualcoyotl', 'Neza', 'Mexico', '1234567890', '0987654321', '', '0125849', '1345687', '2000-03-12 00:00:00', '2', '2', '', NULL, '0000-00-00 00:00:00.000000', '0000-00-00 00:00:00.000000', NULL, NULL, NULL, '1');`
+`$ $password= empleado`
+`$ $ingreso de pass base de datos= $2a$12$F3EjJMpuCbnpFGcu0WsR0uCKjdcs/M3ZRBFKY7iHDytl.ZTgvMwEm `
 
 ## LUNCH
 `$ php artisan serve`
