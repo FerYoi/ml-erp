@@ -15,8 +15,8 @@
                     <div class="main-login-form">
                         <div class="login-group">
                             <div class="form-group">
-                                <label for="email" class="sr-only">E-mail</label>
-                                <input type="email" class="form-control" name="email" id="email" value="{{ old('email') }}" placeholder="Email" />
+                                <label for="email" class="sr-only">Em@il</label>
+                                <input type="email" class="form-control" name="email" id="email" value="{{ old('email') }}" placeholder="Em@il" />
                             </div>
                             <div class="form-group">
                                 <label for="password" class="sr-only">Password</label>

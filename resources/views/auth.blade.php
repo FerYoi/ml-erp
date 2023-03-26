@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Erp rIL</title>
+    <title>ERP - ML</title>
 
 {!! Html::style('assets/css/bootstrap.css') !!}
 {!! Html::style('assets/css/styles.css') !!}
@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <style>
     body {
-        background: #1d1d1d !important;
+        background: #3BAF9F !important;
     }
 </style>
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

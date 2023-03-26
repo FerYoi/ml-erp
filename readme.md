@@ -10,9 +10,6 @@
 
 ## Insertar Roles en la tabla de roles
 `INSERT INTO `roles` (`id`, `nombre`) VALUES ('1', 'Administrador'), ('2', 'Empleado');`
-## Insertar Niveles
-`INSERT INTO `niveles` (`id`, `nombre`) VALUES ('1', 'Administrador'), ('2', 'Empleado');`
-
 
 
 ## SET ADMIN USER

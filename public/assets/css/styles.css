@@ -19,7 +19,7 @@ body {
 }
 
 .login-wrapper {
-    background: #1d1d1d;
+    background: #3BAF9F;
 }
 
 section header {
@@ -65,12 +65,12 @@ a:hover {
     position: relative;
     top: -125px;
     width: 50px;
-    background: #dc2214;
+    background: #400ee2;
 }
 
 
 #sending-button-wrapper button[type="submit"] {
-    background: #f9b916 none repeat scroll 0 0;
+    background: #09ad9f none repeat scroll 0 0;
     border: medium none;
     border-radius: 50px;
     color: #1d1d1d;
@@ -95,12 +95,12 @@ a:hover {
 
 
 #remember ~ label {
-    color: #fff;
-    font-size: 12px;
+    color: #000000;
+    font-size: 16px;
     font-weight: lighter;
     left: 5px;
     position: relative;
-    top: -2px;
+    top: 0px;
 }
 
 
@@ -114,7 +114,7 @@ a:hover {
 }
 
 .etc-login-form a:hover {
-    color: #f9b916;
+    color: #16d3f9;
     text-decoration: none;
 }
 
@@ -145,7 +145,7 @@ a:hover {
 }
 
 #password-form p {
-   color: #fff;
+   color: #a39d9d;
     font-size: 12px;
     margin: 20px;
 }

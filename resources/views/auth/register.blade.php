@@ -1,4 +1,4 @@
-<!-- resources/views/auth/register.blade.php -->
+resources/views/auth/register.blade.php
 @extends('auth')
 @section('content')
     <div class="login-wrapper">
